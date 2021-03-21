@@ -18111,7 +18111,7 @@ span.copyright {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(255, 6, 10, .9);
+    background-color: #45b877;
     text-align: left!important;
 }
 
@@ -20309,7 +20309,7 @@ ul.navbar-nav.ml-auto {
         height: calc(100% - 20px);
         top: 10px;
         left: 20px;
-        background-color: rgba(255, 6, 10, .9);
+        background-color: #45b877;
         text-align: left!important;
     }
    section#section-team .voffset-120 {
