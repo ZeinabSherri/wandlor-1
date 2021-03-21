@@ -295,7 +295,7 @@
 a.btn.btn--red.btn--rounded  {
     color: #fff;
     width: auto;
-    background-color: #ff060a;
+    background-color: #45b877;
     padding: 0 40px;
     text-align: center;
     margin: 40px auto 0;
@@ -304,7 +304,7 @@ a.btn.btn--red.btn--rounded  {
     line-height: 60px;
     background-position: 32px;
     transition: background-color .5s ease, color .5s ease;
-    border: 2px solid #ff060a;
+    border: 2px solid #45b877;
     margin-right:30px;
 }
 a.btn.btn--white.btn--rounded {
@@ -322,8 +322,8 @@ a.btn.btn--white.btn--rounded {
     border: 2px solid;
 }
 a.btn.btn--white.btn--rounded:hover{
-    background:  #ff060a;
-     border: 2px solid #ff060a;
+    background:  #45b877;
+     border: 2px solid #45b877;
 }
 .slide--top{
     text-transform: uppercase;
@@ -336,7 +336,7 @@ a.btn.btn--white.btn--rounded:hover{
     width: 70px;
     height: 2px;
     position: absolute;
-    background: #ff060a;
+    background: #45b877;
     top: -30px;
     left: 50%;
     margin-left: -35px;
@@ -355,7 +355,7 @@ a.btn.btn--white.btn--rounded:hover{
     width: 70px;
     height: 2px;
     position: absolute;
-    background: #ff060a;
+    background: #45b877;
     top: -20px;
     left: 0;
     margin-left: 0px;
@@ -392,7 +392,7 @@ a.btn.btn--red1.btn--rounded span {
     letter-spacing: 1px;
     -webkit-transition: all .5s;
     transition: all .5s;
-   background-color: #ff060a;
+   background-color: #45b877;
     margin-right: 15px;
         float: left;
         text-align: center;
@@ -535,7 +535,7 @@ a.btn.btn--red1.btn--rounded span {
         letter-spacing: 1px;
         -webkit-transition: all .5s;
         transition: all .5s;
-        background-color: #ff060a;
+        background-color: #45b877;
         margin-right: 15px;
         float: left;
         width: 70px;
@@ -586,7 +586,7 @@ a.btn.btn--red1.btn--rounded span {
         letter-spacing: 1px;
         -webkit-transition: all .5s;
         transition: all .5s;
-        background-color: #ff060a;
+        background-color: #45b877;
         margin-right: 15px;
         float: left;
         width: 70px;
