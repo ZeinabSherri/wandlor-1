@@ -14988,7 +14988,7 @@ p.small.first-letter:first-letter {
     line-height: .45;
     letter-spacing: 1.5px;
     float: left;
-    color: red;
+    color: #45b877;
     margin-top: 18px;
     margin-right: 10px
 }
@@ -15159,7 +15159,7 @@ ul li span {
     top: -49px;
     width: 0;
     height: 3px;
-    background-color: #f51418;
+    background-color: #45b877;
     margin-left: -71px;
     width: 71px;
     opacity: 1;
@@ -17277,7 +17277,7 @@ span.copyright {
 }
 
 .content-post a {
-    color: red
+    color: #45b877
 }
 
 .content-post abbr[title] {
@@ -19022,7 +19022,7 @@ div#section-about .container {
 }
 
 .team__slider .team__item .team__item__content {
-    border: 1.9px solid red;
+    border: 1.9px solid #45b877;
     height: 417px;
     padding: 32px 31px;
     position: relative
@@ -19064,7 +19064,7 @@ div#section-about .container {
     position: absolute;
     top: 32px;
     left: 31px;
-    background-color: rgba(255, 6, 10, .8);
+    background-color: #45b877;
     width: calc(100% - 62px);
     height: 427px;
     transition: opacity .5s ease;
@@ -19078,7 +19078,7 @@ div#section-about .container {
         position: absolute;
         top: 32px;
         left: 31px;
-        background-color: rgba(255, 6, 10, .8);
+        background-color: #45b877;
         width: calc(100% - 62px);
         height: 427px;
         transition: opacity .5s ease;
