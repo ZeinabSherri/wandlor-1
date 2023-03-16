@@ -15076,6 +15076,7 @@ ul.list-services li {
     font-size: 54px;
  
 }
+
 .sliderslide-content svg line,.sliderslide-content svg polyline,.sliderslide-content svg path,.sliderslide-content svg rect, .sliderslide-content svg circle{
         stroke:#45b877;
 }
@@ -15083,6 +15084,7 @@ ul.list-services li {
         stroke:#fff;
 }
 .contentslide .sliderslide-content:hover h4.small, .contentslide .sliderslide-content:hover ul.list-services li{
+    
     color: #fff;
 }
 ul.unstyle {
@@ -18743,9 +18745,11 @@ div#section-about .container {
 .contentslide .sliderslide-content {
     padding: 40px 20px 20px;
     border: 1px solid #e2e3e7;
+    
 }
 .contentslide .sliderslide-content:hover{
     background-color: #45b877;
+    
 }
 .contentslide .flickity-prev-next-button {
     bottom: -23px;
@@ -20559,4 +20563,27 @@ ul.navbar-nav.ml-auto {
             font-size: 14px;
         }
 }
+.grow {
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 49px;
+    width: 22%;
+    margin: 5px 1% 5px 1%;
+    float: left;
+    position: relative;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+    transition: 1.5s;
+  }
+  .grow:hover {
+    height: 145px;
+    width: 50vw;
+  }
+  .flip-card-back {
+    
+    color: white;
+    transform: rotateY(180deg);
+  }
 /*----------------- responsive end -------------------*/

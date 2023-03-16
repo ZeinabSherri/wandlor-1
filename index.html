@@ -56,25 +56,14 @@
             <div class="col-12">
                 <div class="row justify-content-between">
                     <div class="col-auto">
-                        <a class="navbar-brand" href="index.html"><img src="images/demo/logos/logo-slider-white.png" alt=""></a>
+                        <a class="navbar-brand" href="index.html"><img src="images/demo/logos/logo-emblem.png" alt=""></a>
                     </div>
                     <div class="col">
                         <ul class="navbar float-right">
                             <li><a class="nav-link active" href="#">Home</a></li>
                             <li><a class="nav-link" href="#section-services">Services</a></li>
                             <li><a class="nav-link" href="#section-about">About</a></li>
-                            <li class="nav-item dropdown" ><a class="nav-link dropdown-toggle"  href="section-work" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Work</a>
-                                <div class="dropdown-menu" >
-                                  <a class="dropdown-item" href="#section-work" onclick="chgMas(2)">2 column</a>
-                                  <a class="dropdown-item" href="#section-work" onclick="chgMas(3)">3 column</a>
-                                  <a class="dropdown-item" href="#section-work" onclick="chgMas(4)">4 column</a>
-                                  <a class="dropdown-item" href="#section-work" onclick="chgMas(5)">5 column</a>
-                                  <a class="dropdown-item" href="#section-work" onclick="chgMas1(2)">2 column fullwidth</a>
-                                  <a class="dropdown-item" href="#section-work" onclick="chgMas1(3)">3 column fullwidth</a>
-                                  <a class="dropdown-item" href="#section-work" onclick="chgMas1(4)">4 column fullwidth</a>
-                                  <a class="dropdown-item" href="#section-work" onclick="chgMas1(5)">5 column fullwidth</a>
-                                </div>
-                              </li>
+                            <li class="nav-item dropdown" ><a class="nav-link" href="#section-work" onclick="chgMas1(3)">Work</a></li>
                             <li><a class="nav-link" href="#section-team">Team</a></li>
                             <li><a class="nav-link" href="#section-contact">Contact</a></li>
                            
@@ -241,8 +230,8 @@
                         data-splitout="none" 
                         data-responsive_offset="on">
                         <div class="slide-action">
-                            <a class="btn btn--red btn--rounded" href="#">Free Consultation</a>
-                            <a class="btn btn--white  btn--rounded " href="#">How we work</a>
+                            <a class="btn btn--red btn--rounded" href="#section-contact">Free Consultation</a>
+                            <a class="btn btn--white  btn--rounded " href="#section-work">How we work</a>
                         </div>              
                     </div>
                 </li>
@@ -262,12 +251,13 @@
         <div class="voffset-120"></div>
         <div class="container">
             <div class="row justify-content-end js-inview">
-               
+              
                 <div class="col-12 js-inview_h tra20 delay01">
                   <div class="section__header">
-                        <h2 class="section__title">We specialize in transforming your ideas<br/> 
-into digital creative desings & digital products.</h2>
-                        <span>Digital marketing is the marketing of products or services using digital technologies.</span>
+                        <h2 class="section__title">SKILLS. EXPERIENCE. MAGIC.<br/> 
+                            FOR OUR SERVICES<br/>
+                          </h2>
+                        
                         </div>
                 </div>
                 </div>
@@ -276,84 +266,103 @@ into digital creative desings & digital products.</h2>
                 <div class="col-12">
                   
                     <div class="voffset-110"></div>
+                    
                     <div class="row js-inview">
                         <div class="contentslide" >
-                            <div class="sliderslide col-4 js-inview_h tra20 delay01">
-                                <div class="sliderslide-content">
-                                <img src="images/svg/Office-47.svg" class="svg" alt="Graphic Design" />
-                                    <h4 class="small">Graphic Design</h4>
+                            <div class="sliderslide col-4 js-inview_h tra20 delay01">               
+                                <div class="sliderslide-content" onclick="openTab('b1');" >
+                                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                                <img src="images/svg/Office-47.svg" class="svg" alt="BRANDING." />
+                                <h4 class="small">BRANDING</h4>
+                                <div id="b1" class="containerTab">
+                                    
                                     <div class="voffset-30"></div>
                                     <ul class="list-services">
-                                        <li>UI & UX</li>
-                                        <li>ILLUSTRATION</li>
-                                        <li>BRANDING</li>
-                                        <li>Culture & voice</li>
+                                        <li>-Brand Identity: Whether it's an uplift, complete rebranding, or entirely brand new,
+                                             we meticulously craft your brand identity from logo design
+                                             to stationary to the brand theme and colors to ensure you stand out.</li>  
+                                        <li> -Brand Tone of Voice: A good Brand Identity always comes with a spot-on Brand Tone of Voice, 
+                                                which we expertly fashion based on your audience and our know-how</li>  
                                     </ul>
+                                </div>
                                 </div>
                             </div>
                             <div class="sliderslide col-4 js-inview_h tra20 delay02">
-                                <div class="sliderslide-content">
-                                <img src="images/svg/Userinterface_image.svg" class="svg"  alt="Digital Marketing"/>
-                                    <h4 class="small">Digital Marketing</h4>
+                                <div class="sliderslide-content" onclick="openTab('b2');">
+                                <img src="images/svg/luxury.svg" class="svg"  alt="ADVERTISING."/>
+                                <h4 class="small">ADVERTISING.</h4>
+                                <div id="b2" class="containerTab" >
+                                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
                                     <div class="voffset-30"></div>
                                     <ul class="list-services">
-                                        <li>Brand planning</li>
-                                        <li>Content strategy</li>
-                                        <li>Trends & Insights</li>
-                                        <li>Marketing Strategy</li>
+                                        <li>-Communication Strategy: From your digital business 
+                                            strategy to your content marketing and digital marketing tactics, 
+                                            we ensure you are doing all you need to reach your audiences in the right way.</li>
+                                        <li> -Tone of Voice: In line with your Brand Identity, we craft your brand's 
+                                            Tone of Voice to make sure you're reaching your audience in the right style.</li>
+                                        <li>-Online & Offline Campaigns: Ideation and rollout are our things when it comes to the most memorable campaigns 
+                                            to attract your audience and potential customers, all following your brand strategy. </li>
+                                        <li>-Online & Offline Activations: Whether it's a product rollout, brand launch, or an opening event,
+                                             we create hit and win
+                                             online and offline activations to support your marketing and brand strategy</li>
                                     </ul>
+                                </div>
                                 </div>
                             </div>
                             <div class="sliderslide col-4 js-inview_h tra20 delay03">
-                                <div class="sliderslide-content">
-                                <img src="images/svg/Userinterface_slider.svg" class="svg" alt="Web Design"/>
-                                    <h4 class="small">Web Design</h4>
+                                <div class="sliderslide-content" onclick="openTab('b3');">
+                                <img src="images/svg/Userinterface_slider.svg" class="svg" alt="KEY ARTS."/>
+                                <h4 class="small">KEY ARTS.</h4>
+                                <div id="b3" class="containerTab" >
+                                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>   
                                     <div class="voffset-30"></div>
                                     <ul class="list-services">
-                                        <li>Website & apps</li>
-                                        <li>Content</li>
-                                        <li>Campaigns</li>
-                                        <li>Support & maintenance</li>
+                                        <li>Key Arts Kit</li>
                                     </ul>
+                                </div>
                                 </div>
                             </div>
                             <div class="sliderslide col-4 js-inview_h tra20 delay04">
-                                <div class="sliderslide-content">
-                                <img src="images/svg/luxury.svg" class="svg" alt="Graphic Design" />
-                                    <h4 class="small">Print Media</h4>
+                                <div class="sliderslide-content" onclick="openTab('b4');">
+                                    
+                                <img src="images/svg/Userinterface_image.svg" class="svg" alt="NFT KIT." />
+                                <h4 class="small">NFT KIT.</h4>
+                                <div id="b4" class="containerTab" >
+                                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
                                     <div class="voffset-30"></div>
                                     <ul class="list-services">
-                                        <li>UI & UX</li>
-                                        <li>ILLUSTRATION</li>
-                                        <li>BRANDING</li>
-                                        <li>Culture & voice</li>
+                                        <li>Create an idea (2D or 3D)</li>
+                                        
                                     </ul>
+                                </div>
                                 </div>
                             </div>
                             <div class="sliderslide col-4 js-inview_h tra20 delay05">
-                                <div class="sliderslide-content">
-                                <img src="images/svg/device.svg" class="svg"  alt="Digital Marketing"/>
-                                    <h4 class="small">Post Production</h4>
+                                <div class="sliderslide-content" onclick="openTab('b5');">
+                                <img src="images/svg/device.svg" class="svg"  alt="ANIMATION."/>
+                                <h4 class="small">ANIMATION.</h4>
+                                <div id="b5" class="containerTab" >
+                                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
                                     <div class="voffset-30"></div>
                                     <ul class="list-services">
                                         <li>Brand planning</li>
-                                        <li>Content strategy</li>
-                                        <li>Trends & Insights</li>
-                                        <li>Marketing Strategy</li>
+                                        
                                     </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div class="sliderslide col-4 js-inview_h tra20 delay06">
-                                <div class="sliderslide-content">
-                                <img src="images/svg/3d.svg" class="svg" alt="Web Design"/>
-                                    <h4 class="small">3D Anaglyph</h4>
+                                <div class="sliderslide-content" onclick="openTab('b6');">
+                                <img src="images/svg/3d.svg" class="svg" alt="STUDIO."/>
+                                <h4 class="small">STUDIO.</h4>
+                                <div id="b6" class="containerTab" >
+                                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
                                     <div class="voffset-30"></div>
                                     <ul class="list-services">
                                         <li>Website & apps</li>
-                                        <li>Content</li>
-                                        <li>Campaigns</li>
-                                        <li>Support & maintenance</li>
+                                        
                                     </ul>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -395,22 +404,23 @@ into digital creative desings & digital products.</h2>
             </div>
             
         </div>-->
+        
          <div class="voffset-90"></div>
         <div class="container-fluid">
              <div class="row">
-                <div class="col-6 fullimage">
+                <div class="col-6 fullimage"><img src="images/demo/work/35.jpg" alt="" >
                 </div>
                 <div class="col-6  fulltext">
                     <div class="info">
                         <div class="voffset-170"></div>
-                         <h3 class="about__title">Have a project in mind?<br>You can reach us by email!</h3>
-                          <p>Based in London. We push boundaries trough thinking not
-just about your brand, your website, or your digital marketing
-but how all of the digital elements of your business work togheter.</p>
+                         <h3 class="about__title"> STEP INTO THE UNEXPECTED WITH US!                           
+                                  </h3>
+                          <p>We are an international communication agency founded by Four dreamers obsessed with everything new, different, and magical. In short, 
+                            we take your business and find the right factor to turn it into a creative impact that affects your company, your clients, and your society. Advertising 
+                            and marketing are the art of forming public opinion. We love to make each opinion as beautiful as it can be.</p>
 
-<p>Through our best-in-class techniques and bespoke 
-growth plans we assess digital problems and put in 
-place strategies that lead to commercial success.</p>
+<p>We are all about taking something normal, mundane, or ordinary and turning it into something else entirely. Indeed, the greatest ideas come from the most unexpected places. 
+    Our work is driven by our mission and our mission is this… "We exist to create things people love".</p>
                      
                         <p><a class="btn btn-primary" href="#section-contact">get in touch</a></p>
                          <div class="voffset-180"></div>
@@ -428,16 +438,16 @@ place strategies that lead to commercial success.</p>
                 <div class="col-12">
                    <div class="section__header js-inview_h tra20 delay01">
                         <div class="voffset-120"></div>
-                        <h2 class="section__title">Awesome Portfolio — A minimal design is usually <br/>best for brands, projects and case studies  products.</h2>
-                         <span>As a digital designer, a well-organized portfolio showing off your design skills, range, and<br/> interests will be a backbone in your search for clients.</span>
+                        <h2 class="section__title">Big Portfolio need a big dream with everything new, different, and magical.</h2>
                          </div>
                         <div class="voffset-60"></div>
                     <ul class="js-filters filters">
                         <li data-filter="*" class="js-inview_h tra20 delay02 is-checked">All Work</li>
                         <li data-filter=".branding" class="js-inview_h tra20 delay03">Branding</li>
-                        <li data-filter=".webdesign" class="js-inview_h tra20 delay04">Web Design</li>
-                        <li data-filter=".digitaldesign" class="js-inview_h tra20 delay05">Digital Design</li>
-                        <li data-filter=".customprint" class="js-inview_h tra20 delay06">Custom Print</li>
+                        <li data-filter=".webdesign" class="js-inview_h tra20 delay04">Posters Key Arts</li>
+                        <li data-filter=".digitaldesign" class="js-inview_h tra20 delay05">NFT</li>
+                        <li data-filter=".customprint" class="js-inview_h tra20 delay06">FreeStyle Art</li>
+                        <li data-filter=".customprint" class="js-inview_h tra20 delay06">Ads</li>
                     </ul>
                 </div>
             </div>
@@ -449,57 +459,61 @@ place strategies that lead to commercial success.</p>
                 <div class="col-12">
                     <div class="grid-gallery-container">
                         <div  id="gll" class="grid-gallery columns-3">
-                            <div class="grid-item branding js-inview_h tra20 delay01"><img src="images/demo/work/01.jpg" alt="">
+                            <div class="grid-item webdesign js-inview_h tra20 delay04"><img src="images/demo/work/wala ghalta.png" alt="">
                                 <div class="grid-item__rollover">
                                     <a href="single-projectd.html">
                                         <div class="containertext">
-                                            <div class="tagsinfo">Branding</div>
-                                            <div class="titleinfo">Amable 18AM</div>
+                                            
+                                            <div class="titleinfo"><img src="images/demo/work/wala ghalta logo.png" alt=""></div>
+                                            <div class="tagsinfo">Posters Key Arts</div>
                                         </div>
                                     </a>
                                 </div>
                             </div>
-                            <div class="grid-item digitaldesign js-inview_h tra20 delay02"><img src="images/demo/work/02.jpg" alt="">
+                            <div class="grid-item webdesign js-inview_h tra20 delay04"><img src="images/demo/work/lilmawt2.png" alt="">
                                 <div class="grid-item__rollover">
                                     <a href="single-projectd.html">
                                         <div class="containertext">
-                                            <div class="tagsinfo">Digital Design</div>
-                                            <div class="titleinfo">Mexico City</div>
+                                            
+                                            <div class="titleinfo"><img src="images/demo/work/lilmawt2 logo.png" alt=""></div>
+                                            <div class="tagsinfo">Posters Key Arts</div>
                                         </div>
                                     </a>
                                 </div>
                             </div>
-                            <div class="grid-item digitaldesign js-inview_h tra20 delay03"><img src="images/demo/work/03.jpg" alt="">
+                            <div class="grid-item webdesign js-inview_h tra20 delay04"><img src="images/demo/work/Mutahama.png" alt="">
                                 <div class="grid-item__rollover">
                                     <a href="single-projectd.html">
                                         <div class="containertext">
-                                            <div class="tagsinfo">Digital Design</div>
-                                            <div class="titleinfo">Double E</div>
+                                            
+                                            <div class="titleinfo"><img src="images/demo/work/Mutahama Logo.png" alt=""></div>
+                                            <div class="tagsinfo">Posters Key Arts</div>
                                         </div>
                                     </a>
                                 </div>
                             </div>
-                            <div class="grid-item branding js-inview_h tra20 delay04"><img src="images/demo/work/04.jpg" alt="">
+                            <div class="grid-item webdesign js-inview_h tra20 delay04"><img src="images/demo/work/m3 wakf tnfiz.png" alt="">
                                 <div class="grid-item__rollover">
                                     <a href="single-projectd.html">
                                         <div class="containertext">
-                                            <div class="tagsinfo">Branding</div>
-                                            <div class="titleinfo">Triglav</div>
+                                            
+                                            <div class="titleinfo"><img src="images/demo/work/m3 wakf tnfiz logo.png" alt=""></div>
+                                            <div class="tagsinfo">Posters Key Arts</div>
                                         </div>
                                     </a>
                                 </div>
                             </div>
-                            <div class="grid-item webdesign js-inview_h tra20 delay05"><img src="images/demo/work/05.jpg" alt="">
+                            <div class="grid-item webdesign js-inview_h tra20 delay04"><img src="images/demo/work/detaineeX.png" alt="">
                                 <div class="grid-item__rollover">
                                     <a href="single-projectd.html">
                                         <div class="containertext">
-                                            <div class="tagsinfo">Web Design</div>
-                                            <div class="titleinfo">Wood</div>
+                                            <div class="tagsinfo">Posters Key Arts</div>
+                                            <div class="titleinfo">detaineeX</div>
                                         </div>
                                     </a>
                                 </div>
                             </div>
-                            <div class="grid-item branding js-inview_h tra20 delay06"><img src="images/demo/work/06.jpg" alt="">
+                            <!-- div class="grid-item branding js-inview_h tra20 delay06"><img src="images/demo/work/06.jpg" alt="">
                                 <div class="grid-item__rollover">
                                     <a href="single-projectd.html">
                                         <div class="containertext">
@@ -509,7 +523,7 @@ place strategies that lead to commercial success.</p>
                                     </a>
                                 </div>
                             </div>
-                           <!-- <div class="grid-item customprint js-inview_h tra20 delay07"><img src="images/demo/work/07.jpg" alt="">
+                           <<div class="grid-item customprint js-inview_h tra20 delay07"><img src="images/demo/work/07.jpg" alt="">
                                 <div class="grid-item__rollover">
                                     <a href="single-projectd.html">
                                         <div class="containertext">
@@ -542,7 +556,7 @@ place strategies that lead to commercial success.</p>
                         </div>
                         <p class="loadmore"><span class="js-loadmore btn btn-primary">more works</span></p>
                         <div class="js-more-items grid-gallery-more-items">
-                            <div class="grid-item "><img src="images/demo/work/01.jpg" alt="">
+                            <div class="grid-item "><img src="images/demo/work/wala ghalta.png" alt="">
                                 <div class="grid-item__rollover">
                                     <a href="single-projectd.html">
                                         <div class="containertext">
@@ -552,7 +566,7 @@ place strategies that lead to commercial success.</p>
                                     </a>
                                 </div>
                             </div>
-                            <div class="grid-item "><img src="images/demo/work/02.jpg" alt="">
+                            <div class="grid-item "><img src="images/demo/work/wala ghalta.png" alt="">
                                 <div class="grid-item__rollover">
                                     <a href="single-projectd.html">
                                         <div class="containertext">
@@ -667,7 +681,7 @@ place strategies that lead to commercial success.</p>
                     <div class="testimonial-content">
                         <div class="testimonial__header">
                             <h1 class="js-inview_h tra20 delay01">What they said.</h1>
-                            <p class="js-inview_h tra20 delay02">Don’t just take our words for it. Our clients are our biggest
+                            <p class="js-inview_h tra20 delay02">Don't just take our words for it. Our clients are our biggest
                                 supporters.</p>
                         </div>
                         <div class="testimonial__slider js-inview_h tra20 delay03" data-flickity='{ "cellAlign": "center", "wrapAround": true, "prevNextButtons": false }'>
@@ -833,7 +847,7 @@ They are always safe with us.</p>
                 <li><a href="#">Team</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <span class="copyright">&copy; 2018 BY JELLYTHEMES</span>
+            <span class="copyright">&copy; 2023 BY SMARTSOFT</span>
         </div>
     </footer>
 <!-- Footer Section End -->
