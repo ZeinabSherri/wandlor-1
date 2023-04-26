@@ -15388,9 +15388,9 @@
  .js-blur.in-view {
      opacity: 1
  }
- 
+ /* updated from 100% to 50px */
  img {
-     max-width: 100%
+     max-width: 50px
  }
  
  .img-banner {
@@ -20664,4 +20664,89 @@
              font-size: 14px;
          }
  }
+
+
+ 
  /*----------------- responsive end -------------------*/
+
+
+ .row5{
+    margin: 0px;
+}
+
+
+/* The grid: Three equal column-rays that floats next to each other */
+.column-ray {
+  float: left;
+  width: 30%;
+  padding: 40px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background: #0e0e0f;
+}
+.column-ray:hover{
+    background-color: #45b877;
+    color: #fff;
+}
+.column-ray .list-services:hover{
+    color: #fff;
+}
+.column-ray2 {
+ float: left;
+  width: 30%;
+  padding: 40px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.column-ray img{
+    width: 50px;
+}
+
+.column-ray h4{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.containertab-ray {
+  padding: 60px;
+  color: #fff;
+  display:none;
+  background: #000;
+}
+
+/* Clear floats after the column-rays */
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn-ray {
+  float: right;
+  color: #fff;
+  font-size: 35px;
+  cursor: pointer;
+  margin: auto 50px;
+}
+/* Opened box */
+.containertab-ray.open {
+  display: block;
+}
+.hi{
+margin-top: 20px;
+padding-top: 100px;
+}
+
+.zuzu{
+    margin-top: 20px;
+}

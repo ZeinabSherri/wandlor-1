@@ -493,12 +493,45 @@ function lightboxgallery() {}! function(e) {
 
     function openTab(tabName) {
         var i, x;
-        x = document.getElementsByClassName("containerTab");
+        x = document.getElementsByClassName("containertab-ray");
         for (i = 0; i < x.length; i++) {
           x[i].style.display = "none";
         }
         document.getElementById(tabName).style.display = "block";
       }
+      
+      
+      
+      // Get all the boxes
+      const boxes = document.querySelectorAll('.column-ray');
+      
+      // Add click event listener to each box
+      boxes.forEach(box => {
+        box.addEventListener('click', () => {
+          // Get the box content
+          const content = box.nextElementSibling;
+      
+          // If box content is already open, close it
+          if (content.classList.contains('open')) {
+            content.classList.remove('open');
+            box.classList.remove('active');
+          } 
+          // If another box content is open, close it and open the clicked box content
+          else if (document.querySelector('.containertab-ray.open')) {
+            const openBox = document.querySelector('.containertab-ray.open');
+            const activeBox = document.querySelector('.column-ray.active');
+            openBox.classList.remove('open');
+            activeBox.classList.remove('active');
+            content.classList.add('open');
+            box.classList.add('active');
+          }
+          // If no box content is open, open the clicked box content
+          else {
+            content.classList.add('open');
+            box.classList.add('active');
+          }
+        });
+      });
       
       
       
